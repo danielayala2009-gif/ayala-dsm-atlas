@@ -1,16 +1,16 @@
-AYALA DSM ATLAS
-Prototype educational PWA.
+AYALA DSM ATLAS v2
 
-Files:
-- index.html
-- manifest.json
-- sw.js
+Educational clinical-learning PWA.
 
-Deploy to GitHub Pages by placing all three files at the repository root and enabling Pages from the main branch/root.
+New in v2:
+- Light-first design plus dark-mode toggle
+- Clickable symptom-result pathways
+- Diagnosis synopsis pages with differential prompts
+- Notes tagged to diagnoses
+- Study Library with in-app PDF/image/audio/video/text preview
+- Original Study & Review questions
+- My Cases for fictional/de-identified practice
 
-Important:
-- Educational decision-support only; not a stand-alone diagnostic tool.
-- Uses original summaries and does not reproduce DSM-5-TR diagnostic criteria verbatim.
-- Notes use localStorage.
-- File Vault uses IndexedDB in the browser.
-- Review official APA DSM-5-TR updates periodically.
+Deploy: replace the repository-root index.html, manifest.json, sw.js, and README.txt with these files.
+
+Important: educational decision support only; not stand-alone diagnosis. Do not store identifiable client information. Exact DSM-5-TR criteria, exclusions, specifiers, and codes should be verified in authorized current sources.
