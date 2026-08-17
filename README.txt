@@ -1,16 +1,22 @@
-AYALA DSM ATLAS v2
+AYALA BRAIN ATLAS v2.1
 
-Educational clinical-learning PWA.
+DSM-5-TR clinical learning and diagnostic reasoning PWA.
 
-New in v2:
-- Light-first design plus dark-mode toggle
-- Clickable symptom-result pathways
-- Diagnosis synopsis pages with differential prompts
-- Notes tagged to diagnoses
-- Study Library with in-app PDF/image/audio/video/text preview
-- Original Study & Review questions
-- My Cases for fictional/de-identified practice
+v2.1 adds:
+- Custom Ayala Brain Atlas app icon
+- Android/PWA 192px and 512px icons
+- Maskable icon support
+- Apple touch icon
+- Updated app name: Ayala Brain Atlas
+- New service-worker cache version so the icon refreshes properly
 
-Deploy: replace the repository-root index.html, manifest.json, sw.js, and README.txt with these files.
+Upload every file in this folder to the existing ayala-dsm-atlas GitHub repository root.
 
-Important: educational decision support only; not stand-alone diagnosis. Do not store identifiable client information. Exact DSM-5-TR criteria, exclusions, specifiers, and codes should be verified in authorized current sources.
+After GitHub Pages updates:
+1. Remove the old gray-G shortcut from Android.
+2. Open the live Atlas in Chrome.
+3. Add/install it to the Home screen again.
+4. Android should then use the Ayala Brain Atlas icon.
+
+Educational decision support only; not stand-alone diagnosis.
+Do not store identifiable client information.
