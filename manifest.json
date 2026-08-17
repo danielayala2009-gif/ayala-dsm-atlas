@@ -1,0 +1,10 @@
+{
+  "name":"Ayala DSM Atlas",
+  "short_name":"DSM Atlas",
+  "start_url":"./",
+  "display":"standalone",
+  "background_color":"#07101e",
+  "theme_color":"#0b1324",
+  "description":"Educational DSM-5-TR learning and differential reasoning atlas with notes and local file vault.",
+  "icons":[]
+}
